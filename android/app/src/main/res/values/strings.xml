@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- TODO STEP 4 -->
+    <!-- This is boiler-plate code, of which you just need to change one value (site) -->
+    <!-- This string builds a trust relationship from android app to the website we are going to
+    open -->
+    <!-- This is needed to remove the URL bar at the top -->
+    <string name="asset_statements">
+        [{
+        \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+        \"target\": {
+        \"namespace\": \"web\",
+        \"site\": \"https://proschool.id\"}
+        }]
+    </string>
+</resources>
